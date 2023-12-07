@@ -26,7 +26,6 @@ const img = document.querySelector(".banner-img");
 
 leftArrow.addEventListener("click", function () {
   position = position - 1;
-  console.log(position);
   console.log(slides[position]);
 
   if (position < 0) {
@@ -37,7 +36,6 @@ leftArrow.addEventListener("click", function () {
 });
 rightArrow.addEventListener("click", function () {
   position = position + 1;
-  console.log(position);
   console.log(slides[position]);
 
   if (slides.length === position) {
